@@ -1,0 +1,246 @@
+@import url(./reset.css);
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+
+}
+body{
+    padding-right: 30px;
+    padding-left: 30px;
+    padding-top: 100px;
+    
+  
+
+}
+
+
+.photo img{
+   width: 160px;
+   height: 180px;
+    
+}
+.profile{
+    display: flex;
+    
+}
+
+.aboutme{
+    
+    flex-direction: column;
+    display: flex;
+    gap: 15px;
+    padding-left: 20px;
+}
+
+.aboutme h1{
+    font-weight: 700;
+    color: darkcyan;
+    gap: 35px;
+    font-size: 30px;
+    
+}
+
+.aboutme  h2{
+    font-size: 20px;
+    font-weight: 100;
+    color: darkgray;
+}
+.aboutme h3{
+    font-size: 20px;
+    font-weight: 100;
+    color: darkgray;
+}
+
+.aboutme i{
+    padding-right
+    : 10px;
+    color: darkcyan;
+
+}
+.aboutme h6{
+    font-size: 20px;
+    font-weight: 100;
+    color: darkgray;
+}
+.aboutme h6 a{
+    color: darkgray;
+    
+}
+.aboutme a:hover{
+    color: blue;
+}
+.contacts{
+
+
+    display: flex;
+    flex: 30%;
+    flex-direction: column;
+
+}
+.section{
+    display: flex;
+ 
+    
+}
+
+.opsi{
+ display: flex;
+ flex-basis: 65%;
+}
+
+.contacts span{
+    color: darkcyan;
+    font-weight: 700;
+    font-size: 25px;
+  
+    display: flex;
+}
+.fa-address-book {
+ padding-right: 10px;
+ display: flex;
+}
+
+.fa-envelope{
+    padding-right: 8px; 
+    display: flex;
+    
+}
+
+
+.contacts h2{
+    padding-top: 30px;
+   
+}
+.contacts h4{
+    padding-top: 10px;
+   
+}
+.contacts i {
+    color: darkcyan;
+}
+
+.contacts a{
+    color: darkgray;
+    
+}
+.fa-phone{
+    padding-right: 8px;
+}
+.contacts a:hover{
+    color: blue;
+}
+.contacts h6{
+    color: darkgrey;
+    padding-top:  11px; 
+}
+
+.fa-location-dot {
+    padding-right: 8px;
+}
+
+.licni h1{
+    color: darkcyan;
+    font-weight: 700;
+    font-size: 28px;
+    padding-top: 20px;
+    
+}
+.licni i{
+    padding-right: 10px;
+}
+
+.personal-mest{
+    font-size: 20px;
+   padding-left: 50px;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+  flex-basis: 55%;
+
+}
+.icon-comp h1{
+    padding: 5px;
+}
+.personal-mest h2{
+    padding: 5px;
+}
+
+.personal-mest h3{
+    padding: 5px;
+}
+
+.personal-mest h4{
+    padding: 5px;
+}
+.personal-mest h5{
+    padding: 5px;
+}
+
+.personal-naviki{
+    display: flex;
+}
+
+
+
+.personal-work {
+  flex: 40%;
+    display: flex;
+    flex-direction: column;
+   
+}
+.personal-work h1{
+font-size: 30px;
+color: darkcyan;
+margin: -30px;
+
+
+}
+.personal-work i{
+    padding: 5px;
+}
+.personal-work h2{
+    padding: 5px;
+    padding-top: 40px;
+}
+.personal-work h3{
+    padding: 5px;
+}
+.personal-work h4{
+    padding: 5px;
+}
+
+.personal-information h1{
+display: flex;
+justify-content: center;
+padding-top: 40px;
+font-size: 50px;
+color: darkcyan;
+
+}
+.personal-information i{
+    padding-left: 20px;
+
+  
+}
+.personal-write span{
+display: flex;
+font-size: 22px;
+padding-top: 30px;
+justify-content: center;
+padding-left: 140px;
+padding-right:  140px; 
+
+}
+
+
+
+
+
